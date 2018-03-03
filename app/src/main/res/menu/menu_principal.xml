@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        -   baixar imagens
+        - criar pasta menu
+            criar arquivo menu
+            codigo do menu xml + funcionalidades activity
+
+
+    -->
+    <item
+        android:id="@+id/menu_perquisar"
+        android:icon="@drawable/ic_action_pesquisar"
+        android:title="Pesquisar"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/menu_salvar"
+        android:icon="@drawable/ic_action_salvar"
+        android:title="Salvar"
+        app:showAsAction="always" />
+
+
+
+
+</menu>
